@@ -1,7 +1,5 @@
 package hash;
 
-import java.util.ArrayList;
-
 public class MyTest {
 	
 	private String sd;
@@ -28,7 +26,6 @@ public class MyTest {
 			System.out.print(b);
 		}
 		
-		ArrayList<E>
 	}
 
 	public String getSd() {
