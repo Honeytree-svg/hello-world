@@ -1,4 +1,4 @@
-package main.java.utils;
+package utils;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -12,7 +12,10 @@ public class LocalDate2 {
         LocalDateTime localDateTime = LocalDateTime.now();
 
         Date date = new Date();
-        System.out.println(localDateTime);
+        for (int i = 0; i < 0; i++) {
+            System.out.println(1000/1001);
+        }
+
         System.out.println(date);
     }
 }
