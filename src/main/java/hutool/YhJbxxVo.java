@@ -209,4 +209,6 @@ public class YhJbxxVo implements Serializable {
     private String zyjgConcat;
 
     private String aa;
+
+    private String ab;
 }
