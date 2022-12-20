@@ -5,17 +5,22 @@ import lombok.Data;
 import java.io.Serializable;
 
 @Data
-public class Customer implements Cloneable,Serializable{
+public class Customer2 implements Cloneable,Serializable{
 
 	private String name;
 	private int age;
-	private Long id;
+	private String id;
 
-	
-	public Customer(String name, int age) {
+
+	public Customer2(String name, int age) {
 		super();
 		this.name = name;
 		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "Customer [name=" + name + ", age=" + age + "]";
 	}
 
 	public String getName() {
