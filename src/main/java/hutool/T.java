@@ -21,9 +21,9 @@ public class T {
         List<String> list = new ArrayList<>();
         List<String> list1 = Arrays.asList("2022-12-12", "2022-11-22");
         List<String> list2 = Arrays.asList("2022-11-21", "2022-11-02");
-        list.addAll(list1);
-        list.addAll(list2);
-        list.sort(Comparator.comparing(String::toString));
-        System.out.println(list);
+//        list.addAll(list1);
+//        list.addAll(list2);
+//        list.sort(Comparator.comparing(String::toString));
+//        System.out.println(list);
     }
 }
