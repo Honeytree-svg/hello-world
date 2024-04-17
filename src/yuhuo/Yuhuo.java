@@ -3,16 +3,13 @@ package yuhuo;
 public class Yuhuo {
 
 	public static void main(String[] args) {
-	    
-	    //Object[] list = new Object() {};
-	    Object[] list = new Object[] {"\"id\":\"123\"","\"name\":\"sunzhe\""};
-	    for (Object object : list) {
-            
-	        System.out.println(object.toString());
-        }
-		
-	    String str = "\n\n\n\n\n\name";
-	    System.out.println(str);
+
+		String s = "s";
+		s.length();
+		StringBuffer s32 = new StringBuffer();
+		s32.reverse();
+		s32.length();
+		new String(new char[1]);
 	}
 
 }
